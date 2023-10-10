@@ -1,3 +1,5 @@
+package inne;
+
 public class LiczbaHolder {
     int i = 5;
 

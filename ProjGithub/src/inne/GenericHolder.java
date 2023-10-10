@@ -1,3 +1,4 @@
+package inne;
 
 public class GenericHolder<AnyType> {
 

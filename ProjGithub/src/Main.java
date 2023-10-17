@@ -42,10 +42,10 @@ public class Main {
 
 
 //        Node n1 = new Node<>(10);
-        Node n1 = Nodes.create(10);
-        Node n2 = Nodes.create("Hello");
-        System.out.println(n1.getNext());
-        Nodes.link(n1,n2);
-        System.out.println(n1.getNext());
+        Node first = Nodes.circleOf(1,2,3);
+        System.out.println("node1: "+first);
+        System.out.println("node2: "+first.getNext());
+        System.out.println("node3: "+first.getNext().getNext());
+        System.out.println("node4: "+first.getNext().getNext().getNext());
     }
 }
